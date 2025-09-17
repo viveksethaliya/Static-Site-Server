@@ -9,7 +9,6 @@ This project demonstrates how to sync a website from a development machine to a 
    ```bash
    sudo apt update
    sudo apt install nginx -y
-````
 
 Configure your server block (virtual host) in `/etc/nginx/sites-available/` and enable it.
 
@@ -52,4 +51,7 @@ Configure your server block (virtual host) in `/etc/nginx/sites-available/` and 
 * You’ll be prompted for your server password unless you set up SSH keys.
 * Make sure `/var/www/` (or your Nginx root directory) has proper permissions.
 
-```
+
+----------------------------------------
+project for https://roadmap.sh/projects/static-site-server
+
